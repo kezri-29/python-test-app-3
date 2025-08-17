@@ -1,0 +1,15 @@
+site_name: 'python-test-app-3'
+site_description: 'Main documentation for python-test-app-3'
+repo_url: https://github.com/kezri-29/python-test-app-3
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  # - redirects:
+  #     redirect_maps:
+  #       'index.md': 'overview/what-is-backstage.md'
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - Getting Started: 'docs/index.md'

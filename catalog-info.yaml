@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-test-app-3
+  description: A python application as a test component named - python-test-app-3
+  annotations:
+    github.com/project-slug: kezri-29/python-test-app-3
+    backstage.io/techdocs-ref: dir:.
+    # scorecard/jsonDataUrl: https://raw.githubusercontent.com/kezri-29/python-test-app-3/refs/heads/main/component-score.json
+    # jira.com/project-key: MYSCRUMKEY
+    # jira.com/incoming-issues-status: "To Do"
+    # sonarqube.org/project-key: ${{ secrets.SONAR_ORG }}_python-test-app-3
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
